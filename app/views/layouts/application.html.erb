@@ -11,6 +11,20 @@
   </head>
 
   <body>
+   <header>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+    <h1>Ruby on Rails スケジュール管理アプリ</h1>
+   </header>
+
+   <div class= main_table>
     <%= yield %>
+   </div>
+
+    <footer>
+    <h1>現在の日時：<%= Time.now.strftime("%Y年%m月%d日")%>
+    <br>スケジュール合計：<%= User.count(:title) %></h1>
+    </footer>
   </body>
 </html>

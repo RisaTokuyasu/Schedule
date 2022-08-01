@@ -1,0 +1,72 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+html body {
+    margin: 0px;
+    font-family: 'Kiwi Maru', serif;
+    color: dimgray;
+}
+header {
+    width:100%;
+    margin: 0px;
+    background-color:snow;
+    padding: 20px;
+    border-bottom: dashed 2px lightsteelblue;
+}
+footer {
+    width:100%;
+    margin: 0px;
+    background-color:snow;
+    padding: 20px;
+    border-top: dashed 2px lightsteelblue;
+}
+
+h1 {
+    margin:0px;
+    text-align: center;
+    color: #3b3535;
+}
+
+table {
+    border: solid 1px gray;
+    background-color: ghostwhite;
+}
+
+table th,table td {
+    padding: 10px 20px;
+    border: solid 0.5px gainsboro;
+    text-align: center;
+}
+
+.main_table {
+    margin: 50px 10px;
+    padding: 0 30px;
+}
+.post-coment {
+    width:350px;
+    height:100px;
+}
+input {
+    width:100%;
+    padding: 5px;
+    font-family: 'Kiwi Maru', serif;
+}
+textarea {
+    font-family: 'Kiwi Maru', serif;
+}
+ul {
+    list-style: none;
+    padding: 0px;
+
+}
+.post-new{
+    width: 280px;
+    background-color: lavender;
+    border: solid 0.5px gray;
+    font-size: 18px;
+}
+li {
+    margin-bottom: 5px;
+}
